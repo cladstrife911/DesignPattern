@@ -15,13 +15,14 @@ struct MotorProxy
 {
   unsigned int *motorAddr;
   unsigned int rotaryArmLength;
+  MotorData motorData;
 };
 
 void MotorProxy_Init(MotorProxy *const me);
 
 void MotorProxy_Cleanup(MotorProxy *const me);
 
-DirectionType *MotorProxy_accessMotorDirection(MotorProxy *const me);
+DirectionType MotorProxy_accessMotorDirection(MotorProxy *const me);
 
 unsigned int MotorProxy_accessMotorSpeed(MotorProxy *const me);
 
