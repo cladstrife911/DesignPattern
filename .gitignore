@@ -1,0 +1,4 @@
+/.tags
+/build/DesignPatternProject/obj
+/build/DesignPatternProject/bin
+/build/DesignPatternProject/*.depend
