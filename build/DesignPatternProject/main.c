@@ -4,6 +4,7 @@
 #include "MotorProxy.h"
 #include "AcmeO2Adapter.h"
 #include "UltimateO2Adapter.h"
+#include "RobotArmManager.h"
 
 int main()
 {
