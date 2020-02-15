@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 #include "MotorProxy.h"
+#include "AcmeO2Adapter.h"
+#include "UltimateO2Adapter.h"
 
 int main()
 {
