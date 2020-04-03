@@ -16,6 +16,7 @@
 					<Add directory="../../Chap3_Accessing_Hardware/HW_Proxy" />
 					<Add directory="../../Chap3_Accessing_Hardware/HW_Adapter" />
 					<Add directory="../../Chap3_Accessing_Hardware/Mediator" />
+					<Add directory="../../Chap3_Accessing_Hardware/Observer" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -51,6 +52,22 @@
 		<Unit filename="../../Chap3_Accessing_Hardware/Mediator/RobotArmManager.h" />
 		<Unit filename="../../Chap3_Accessing_Hardware/Mediator/RotatingArmJoint.h" />
 		<Unit filename="../../Chap3_Accessing_Hardware/Mediator/SlidingArmJoint.h" />
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/DisplayClient.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/DisplayClient.h" />
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/GasData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/GasData.h" />
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/GasNotificationHandle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/GasNotificationHandle.h" />
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/GasSensor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Chap3_Accessing_Hardware/Observer/GasSensor.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

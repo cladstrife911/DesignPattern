@@ -5,6 +5,7 @@
 #include "AcmeO2Adapter.h"
 #include "UltimateO2Adapter.h"
 #include "RobotArmManager.h"
+#include "GasSensor.h"
 
 int main()
 {
